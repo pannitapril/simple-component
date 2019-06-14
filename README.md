@@ -16,7 +16,7 @@ Write the component overview here
 
 ## Properties
 
- name           | description                                 | type     | required  | default value   
+ Name           | Description                                 | Type     | Required  | Default value   
 :---------------|:------------------------------------------- | --------:|:---------:|:--------------
  caption        | Caption of the component                    | String   | yes       |           
  disabled       | Make the component disabled                 | boolean  |           |           
