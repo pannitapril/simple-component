@@ -16,13 +16,13 @@ Write the component overview here
 
 ## Properties
 
- name           | description                                   | type     | default   | possible values
-:---------------|:-------------------------------------------   | --------:|:---------:|:---------
- caption        | Caption of the component                      | String   |           | 
- disabled       | Make the component disabled                   | boolean  |           |
- onPress        | Callback when the component is pressed        | function |           |
- bold           | Make the text bold                            | boolean  |           |
- italic         | Make the text italic                          | boolean  |           |
+ name           | description                                 | type     | required  | default value   
+:---------------|:------------------------------------------- | --------:|:---------:|:--------------
+ caption        | Caption of the component                    | String   | yes       |           
+ disabled       | Make the component disabled                 | boolean  |           |           
+ onPress        | Callback when the component is pressed      | function | yes       |           
+ bold           | Make the text bold                          | boolean  |           |           
+ italic         | Make the text italic                        | boolean  |           |           
 
 
 ```
