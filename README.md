@@ -18,11 +18,13 @@ Write the component overview here
 
  Name           | Description                                 | Type     | Required  | Default value   
 :---------------|:------------------------------------------- |:---------|:---------:|:--------------
- caption        | Caption of the component                    | String   | yes       |           
- disabled       | Make the component disabled                 | boolean  |           |           
+ caption        | Caption of the component                    | string   | yes       |           
+ disabled       | Make the component disabled                 | boolean  |           | false          
  onPress        | Callback when the component is pressed      | function | yes       |           
- bold           | Make the text bold                          | boolean  |           |           
- italic         | Make the text italic                        | boolean  |           |           
+ bold           | Make the text bold                          | boolean  |           | false          
+ italic         | Make the text italic                        | boolean  |           | false          
+ color          | The color of the component                  | string   |           | #2f2f2f          
+ disabledColor  | The color when the component is disabled    | string   |           | #8C8C8C          
 
 
 ```
