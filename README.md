@@ -17,7 +17,7 @@ Write the component overview here
 ## Properties
 
  Name           | Description                                 | Type     | Required  | Default value   
-:---------------|:------------------------------------------- | --------:|:---------:|:--------------
+:---------------|:------------------------------------------- |:---------|:---------:|:--------------
  caption        | Caption of the component                    | String   | yes       |           
  disabled       | Make the component disabled                 | boolean  |           |           
  onPress        | Callback when the component is pressed      | function | yes       |           
