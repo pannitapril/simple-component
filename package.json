@@ -1,24 +1,22 @@
 {
-  "name": "@miidx/rn-custom-component",
+  "name": "@miidx/rn-simple-component",
   "version": "0.9.0",
-  "description": "This is template repo for creating custom component",
+  "description": "This is simple component",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/miidx/rn-component-template.git"
+    "url": "git+https://github.com/miidx/rn-simple-component.git"
   },
   "author": "firstyuyu",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/miidx/rn-component-template/issues"
+    "url": "https://github.com/miidx/rn-simple-component/issues"
   },
-  "homepage": "https://github.com/miidx/rn-component-template#readme",
-  "dependencies": {
-    
-  },
+  "homepage": "https://github.com/miidx/rn-simple-component#readme",
+  "dependencies": {},
   "peerDependencies": {
     "react": "*",
     "react-native": "*",

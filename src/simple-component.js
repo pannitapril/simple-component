@@ -4,18 +4,19 @@ import PropTypes from 'prop-types';
 
 const styles = {
   container: {
-    flex: 1
+    flex: 1,
   },
 };
 
-const CustomComponent = ({ title }) => (
-  <View>
+const SimpleComponent = ({ title }) => (
+  <View style={styles}>
     <Text>{title}</Text>
+    <Text>Halo Bandung</Text>
   </View>
 );
 
-export default CustomComponent;
+export default SimpleComponent;
 
-CustomComponent.propTypes = {
+SimpleComponent.propTypes = {
   title: PropTypes.string.isRequired,
 };
